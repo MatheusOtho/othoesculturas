@@ -60,6 +60,18 @@ nav{
         text-align: center;
     }
 
+  .navbuttom:hover{
+        padding: 10px 10px 10px 10px;
+        transform: scale(1.15);
+        transition: 500ms;
+        background-color: #ffffff;
+        height: 50px;
+    }
+
+    .nave:hover{
+        color: rgb(3, 3, 116);
+    }
+
 @media(max-width:430px){
 
     .logoheader{
@@ -113,4 +125,5 @@ nav{
     }
 
     
+
 }
