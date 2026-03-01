@@ -1,0 +1,116 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    justify-items: center;
+    display: grid
+}
+
+.logoheader{
+    width: 400px;
+    margin: 15px;
+}
+
+nav{
+        height: 45px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+.navbuttom{
+        margin-top: 3px;
+        justify-items: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+}
+
+    .contato{
+        margin: 40px;
+    }
+
+    .intro{
+        font-size: 40px;
+    }
+
+    .para{
+        margin-top: 15px;
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+@media(max-width:430px){
+
+    .logoheader{
+        margin: 15px;
+        width: 250px;
+    }
+
+    nav{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .navbuttom{
+        font-weight: bold;
+        margin: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .contato{
+        margin: 20px;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+
+    .para{
+        margin-top: 15px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+}

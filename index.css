@@ -1,0 +1,619 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    justify-items: center;
+    display: grid
+}
+
+.logoheader{
+    width: 400px;
+    margin: 15px;
+}
+
+nav{
+        height: 45px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+.navbuttom{
+        margin-top: 3px;
+        justify-items: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+.introducao{
+        margin: 20px;
+    }
+
+.intro{
+        font-size: 35px;
+    }
+
+.para{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 20px;
+ }
+
+ .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }    
+
+.categorias{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+.titlecat{
+        padding: 10px;
+        color: #ffffff;
+        margin-top: 50px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+.legendacat{
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+.icon{
+        height: 250px;
+        width: 250px;
+    }
+
+.imagenscat{
+        margin-top: 25px;
+        justify-items: center;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .id{
+        text-decoration: none;
+    }
+
+    .titles{
+        margin-top: 50px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .card{
+        margin-top: 30px;
+        align-items: center;
+        width: 230px;
+        height: 330px;
+        border-radius: 25px;
+        box-shadow: 2px 10px 12px 2px;
+    }
+    
+    .iconcard{
+        border-radius: 25px;
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .colunas{
+        margin: 8px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-content: center;
+        justify-items: center;
+        gap: 12px;
+    }
+
+    .cardleg{
+        margin: 8px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbuttom:hover{
+        padding: 10px 10px 10px 10px;
+        transform: scale(1.15);
+        transition: 500ms;
+        background-color: #ffffff;
+        height: 50px;
+    }
+
+    .nave:hover{
+        color: rgb(3, 3, 116);
+    }
+     
+    .id:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+
+
+
+
+/* DISPOSITIVOS MÓVEIS */
+/* TABLET */
+@media(max-width:1024px){
+
+    .logoheader{
+        margin: 15px;
+        width: 250px;
+    }
+
+    nav{
+        height: 40px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .navbuttom{
+        font-weight: bold;
+        margin: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .introducao{
+        margin: 20px;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+
+    .para{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .categorias{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .titlecat{
+        padding: 10px;
+        color: #ffffff;
+        margin-top: 50px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .legendacat{
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .icon{
+        height: 250px;
+        width: 250px;
+    }
+
+    .imagenscat{
+        margin-top: 25px;
+        justify-items: center;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .id{
+        text-decoration: none;
+    }
+
+    .titles{
+        margin-top: 50px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .card{
+        margin-top: 30px;
+        align-items: center;
+        width: 230px;
+        height: 280px;
+        border-radius: 25px;
+        box-shadow: 2px 10px 12px 2px;
+    }
+    
+    .iconcard{
+        border-radius: 25px;
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .colunas{
+        margin: 8px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        justify-items: center;
+        gap: 12px;
+    }
+
+    .cardleg{
+        margin: 8px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbuttom:hover{
+        transform: scale(1.25);
+        transition: 500ms;
+    }
+     
+    .id:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+}
+
+
+/* celular */
+@media(max-width:430px){
+
+    .logoheader{
+        margin: 15px;
+        width: 250px;
+    }
+
+    nav{
+        height: 40px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .navbuttom{
+        font-weight: bold;
+        margin: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .introducao{
+        margin: 20px;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+
+    .para{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .categorias{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .titlecat{
+        padding: 10px;
+        color: #ffffff;
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .legendacat{
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 19px;
+        font-style: italic;
+    }
+
+    .icon{
+        height: 170px;
+        width: 170px;
+    }
+
+    .imagenscat{
+        margin-top: 25px;
+        justify-items: center;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .id{
+        text-decoration: none;
+    }
+
+    .titles{
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .card{
+        align-items: center;
+        width: 200px;
+        height: 280px;
+        border-radius: 25px;
+        box-shadow: 2px 10px 12px 2px;
+    }
+    
+    .iconcard{
+        border-radius: 25px;
+        margin: 10px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .colunas{
+        margin: 8px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        justify-items: center;
+        gap: 12px;
+    }
+
+    .cardleg{
+        margin: 8px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbuttom:hover{
+        transform: scale(1.25);
+        transition: 500ms;
+    }
+     
+    .id:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+}
+
+/* celular pequeno */
+/* celular */
+@media(max-width:414px){
+
+    .logoheader{
+        margin: 15px;
+        width: 250px;
+    }
+
+    nav{
+        height: 40px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .navbuttom{
+        font-weight: bold;
+        margin: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .introducao{
+        margin: 20px;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+
+    .para{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .imgfundos{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .categorias{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+    }
+
+    .titlecat{
+        padding: 10px;
+        color: #ffffff;
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .legendacat{
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 19px;
+        font-style: italic;
+    }
+
+    .icon{
+        height: 150px;
+        width: 150px;
+    }
+
+    .imagenscat{
+        margin-top: 25px;
+        justify-items: center;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .id{
+        text-decoration: none;
+    }
+
+    .titles{
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .card{
+        align-items: center;
+        width: 150px;
+        height: 230px;
+        border-radius: 25px;
+        box-shadow: 2px 10px 12px 2px;
+    }
+    
+    .iconcard{
+        border-radius: 25px;
+        margin: 10px;
+        height: 130px;
+        width: 130px;
+    }
+
+    .colunas{
+        margin: 8px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        justify-items: center;
+        gap: 12px;
+    }
+
+    .cardleg{
+        margin: 8px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .rodapé{
+        background:linear-gradient(rgb(3, 3, 116), rgb(22, 22, 158), rgb(37, 37, 184));
+        color: #ffffff;
+    }
+
+    .direitos{
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbuttom:hover{
+        transform: scale(1.25);
+        transition: 500ms;
+    }
+     
+    .id:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+}
